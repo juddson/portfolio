@@ -494,6 +494,12 @@ a {
 	}
 }
 
+@media(max-width: 1650px) {
+	#nav-bar .flex-container h1 {
+		font-size: 1rem;
+	}
+}
+
 @media(max-width: 500px) {
 	#nav-bar .flex-container h1 {
 		font-size: 1.6rem;
