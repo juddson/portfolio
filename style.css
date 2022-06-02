@@ -191,7 +191,7 @@ a {
 }
 
 #nav-bar .flex-container h1 {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	padding-left: 20px;
 }
 
@@ -302,4 +302,249 @@ a {
 @keyframes fadein {
 	0% { opacity: 0; }
 	100% { opacity: 1; }
+}
+
+@media(max-width: 968px) {
+
+	/*Navigation Bar*/
+
+	#nav-bar {
+		max-height: 5vh;
+	}
+
+	#nav-bar ul {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	#nav-bar ul li{
+	margin: 0 !important;
+	padding: 10px !important;
+	font-size: 1.2rem;
+	border-bottom: solid 1px #000;
+	text-align: center;
+	}
+
+	#nav-bar .flex-container h1 {
+		padding-left: 0px;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	#nav-bar .flex-container {
+		display: block;
+	}
+
+	#nav-bar .flex-container a {
+		padding: 10px;
+		margin: 5px;
+	}
+
+	/*About (Index)*/
+
+	#about {
+		margin-top: 20vh;
+		max-height: 60vh;
+	}
+
+	#about h2 {
+		font-size: 3rem;
+	}
+
+	#about p {
+		width: 70%;
+		font-size: 2rem;
+	}
+
+	#about a {
+		font-size: 2rem;
+	}
+
+	/*Projects*/
+
+	#projects {
+		margin-top: 20vh;
+	}
+
+	.grid-container {
+		grid-template-columns: 90%;
+		grid-template-rows: 0px 500px 0px 500px 0px;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.grid-item {
+		width: 100%;
+		height: 500px;
+	}
+
+	.grid-item img {
+		max-width: 70%;
+	}
+
+	/* Awards */
+
+	#awards {
+		margin-top: 20vh;
+	}
+
+	#awards .flex-container {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#awards .align-start {
+		align-items: center;
+	}
+
+	#awards .flex-item {
+		width: 90%;
+	}
+
+	#awards div .vertical-bar {
+	width: 70%;
+	border-top: solid #555 2px;
+	margin: 10px 0;
+	height: 0vh;
+	border-left: none;
+	border-right: none;
+	}
+
+	/*Post*/
+
+	#post {
+		margin-top: 20vh;
+		height: 100vh;
+	}
+
+	.post-grid-container {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		grid-template-columns: ;
+	    grid-template-rows: ;
+	    grid-row-gap: ;
+	}
+
+	#post a {
+		margin: 0px;
+	}
+
+	#post a.card {
+		font-size: 2.5rem;
+		margin: 10px;
+	}
+
+	#post .return {
+		display: flex;
+		height: 7vh;
+		align-items: center;
+		justify-content: center;
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+
+	#post .flex-container {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.post-grid-item {
+		display: block;
+		max-width: 100%;
+		align-content: center;
+		margin-top: 75px;
+	}
+
+	.post-grid-item h2 {
+		text-align: center;
+	}
+
+	.post-grid-item h3 {
+		text-align: center;
+	}
+
+	.post-grid-item .flex-container p {
+		line-height: 2rem;
+		font-size: 1.3rem;
+		text-align: center;
+		margin: 10px 10px;
+	}
+
+	#post img.panel {
+		margin-top: 20px;
+		max-width: 40%;
+		margin-bottom: 20px;
+	}
+
+	#post .gif {
+		max-width: 75%;
+	}
+
+	.post-grid-item .img-main {
+		max-width: 90%;
+	}
+
+}
+
+@media(max-width: 500px) {
+	#nav-bar .flex-container h1 {
+		font-size: 1.6rem;
+	}
+
+	#post,
+	#awards,
+	#about,
+	#projects {
+		margin-top: 200px ;
+	}
+
+	#about h2 {
+		font-size: 2rem;
+	}
+
+	#about p {
+		font-size: 1.5rem;
+		width: 80%;
+	}
+
+	#about a {
+		margin: 20px 50px;
+	}
+
+	#about .flex-container {
+		flex-direction: column;
+	}
+
+	.grid-container {
+		grid-template-rows: 0px 400px 0px 400px 0px;
+	}
+
+	.grid-item {
+		height: 400px;
+	}
+
+	.post-grid-item .img-main {
+		max-width: 90%;
+	}
+
+	.post-grid-item .flex-container p {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	#post img.panel {
+		max-width: 70%;
+	}
+
+	#post.return {
+		max-height: 10vh;
+		margin-bottom: 20px;
+	}
+
+	#awards p {
+		font-size: 1rem;
+		border-bottom: solid 1px #000;
+	}
 }
