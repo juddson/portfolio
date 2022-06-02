@@ -489,7 +489,7 @@ a {
 }
 
 @media(max-width: 1700px) {
-	#nav-bar h1 {
+	#nav-bar .flex-container h1 {
 		font-size: 1.2rem;
 	}
 }
