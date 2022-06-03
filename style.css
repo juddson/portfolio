@@ -500,7 +500,7 @@ a {
 	}
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
 	#nav-bar .flex-container h1 {
 		font-size: 1.6rem;
 	}
