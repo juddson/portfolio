@@ -288,7 +288,7 @@ a {
 /* Posts */
 
 #post {
-	height: 90vh;
+	height: 100vh;
 	animation: fadein 2s forwards;
 }
 
