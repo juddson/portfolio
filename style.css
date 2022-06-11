@@ -514,6 +514,10 @@ a {
 	#nav-bar .flex-container h1 {
 		font-size: 1.2rem;
 	}
+	
+	#cap-return.post-grid-item.return {
+	margin-top: 150px !important;
+	}
 }
 
 @media(max-width: 1650px) {
