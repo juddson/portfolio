@@ -59,7 +59,7 @@
 			<section>
 				<!-- 1 start -->
 			</section>
-			<section class="grid-item">
+			<section id="fadein-2" class="grid-item">
 				<a href="cycleimprove.html"><h2>Cycle Time Improvement</h2></a>
 				<p>Retaught robot path to remove unwanted movement and reduce cycle time.</p>
 				<p>- January 2022</p>
@@ -67,7 +67,7 @@
 			<section>
 				<!-- 3 middle -->
 			</section>	
-			<section class="grid-item">
+			<section id="fadein-3" class="grid-item">
 				<a href="site.html"><h2>Portfolio Website</h2></a>
 				<p>Code and design website from scratch</p>
 				<p>- April 2022</p>
@@ -77,5 +77,20 @@
 			</section>	
 		</div>
 	</section>
+	<script>	
+	window.onscroll = function() {
+		const tow = window.pageYOffset;
+		const slidein = document.getElementById("fadein-2");
+		const slidein2 = document.getElementById("fadein-3");
+		console.log(tow);
+		if (tow > 200) {
+			slidein.classList.add('slidein');
+			slidein2.classList.add('slidein');
+		} else {
+			slidein.classList.remove('slidein');
+			slidein2.classList.remove('slidein');
+		}
+	}		
+	</script>
 </body>
 </html>
