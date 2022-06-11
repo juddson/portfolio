@@ -327,7 +327,7 @@ a {
 }
 
 @media(max-width: 1650px) {
-	#cap-return.post-grid-item.return {
+	.post-grid-item.return {
 	margin-top: 150px !important;
 	}	
 }
