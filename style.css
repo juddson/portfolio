@@ -154,6 +154,10 @@ a {
 	font-size: 1.2rem;
 }
 
+#cap-return.post-grid-item.return {
+	margin-top: 150px !important;
+}
+
 /* Header */
 
 #nav-bar {
