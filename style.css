@@ -326,6 +326,12 @@ a {
 	100% { opacity: 1; }
 }
 
+@media(max-width: 1650px) {
+	#cap-return.post-grid-item.return {
+	margin-top: 150px !important;
+	}	
+}
+
 @media(max-width: 1200px) {
 
 	/*Navigation Bar*/
