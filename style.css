@@ -242,6 +242,20 @@ a {
 	animation: fadein 2s forwards;
 }
 
+#fadein-2 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+}
+
+#fadein-3 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+}
+
+.slidein {
+	opacity: 1 !important;
+}
+
 /* Awards */
 
 #awards {
